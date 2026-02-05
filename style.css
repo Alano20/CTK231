@@ -1,0 +1,44 @@
+
+
+h1{
+    color:red;
+}
+/*
+p {
+    color:#ff3366;
+    background-color: #00ff00;
+}
+*/
+.specialb{
+color:blue;
+background-color: #ff0000;
+}
+
+#specialID{
+    color:green;
+    background-color: #ffff33f9;
+}
+
+.orangebg{
+    background-color: orange;
+}
+
+.spanstyle{
+    color:blue;
+}
+
+a{
+    color:#ff0000
+}
+
+a:link{
+    color:red
+}
+
+a:visited{
+    color:green;
+}
+
+a:hover{
+    color:yellow
+}
