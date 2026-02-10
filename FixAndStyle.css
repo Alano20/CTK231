@@ -1,0 +1,50 @@
+h1{
+    color:white;
+    background-color:blueviolet ;
+}
+
+a:link{
+    color:green;
+}
+
+a:hover{
+    color:red;
+}
+
+.purplebg{
+    background-color:blueviolet ;
+}
+
+h2{
+    color:blue;
+}
+
+.super{
+    color:yellow;
+}
+
+
+.fire{
+    background-color:yellow;
+}
+
+.hyper{
+    color:red;
+}
+
+.dark{
+    color:yellow;
+    background-color: green;
+}
+
+.cyber{
+    background-color: greenyellow;
+}
+
+.flame{
+    color:red
+}
+
+.yellowbg{
+    background-color: yellow;
+}
