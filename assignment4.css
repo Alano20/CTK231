@@ -1,0 +1,28 @@
+.ssj{
+    font-family:Arial, Helvetica, sans-serif
+}
+.ssj2{
+    font-style: italic;
+    color:orange;
+    font-weight: 100;
+}
+
+.textcenter{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textjustify{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.spooder{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+    background-color: yellow;
+}
+body{
+    background-image: url(sonic.jpg);
+}
