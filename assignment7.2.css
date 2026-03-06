@@ -1,0 +1,131 @@
+
+
+body {
+    background: #bfbfbf;
+    font-family: Georgia, serif;
+}
+
+/* CENTER WRAPPER */
+.wrapper {
+    width: 1000px;
+    margin: 20px auto;
+    border: 6px solid #0d47a1;
+    background: white;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to bottom, #1e88e5, #0d47a1);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 a {
+    color: #9fd3ff;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 32px;
+}
+
+header h1 a:hover {
+    color: white;
+}
+
+/* NAVIGATION */
+nav {
+    display: flex;
+    background: linear-gradient(to bottom, #1976d2, #0d47a1);
+}
+
+nav a {
+    flex: 1; /* equal width buttons */
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-right: 3px solid #0d47a1;
+}
+
+nav a:last-child {
+    border-right: none;
+}
+
+nav a:hover {
+    background: #42a5f5;
+    color: yellow;
+}
+
+nav a.active {
+    background: #1565c0;
+}
+
+/* MAIN LAYOUT */
+main {
+    display: flex;
+}
+
+/* LEFT CONTENT */
+.content-left {
+    width: 70%;
+    padding: 20px;
+}
+
+.content-left h2 {
+    color: #0d47a1;
+    border-bottom: 3px solid #0d47a1;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.content-left p {
+    margin-bottom: 15px;
+}
+
+/* RIGHT SIDEBAR */
+.content-right {
+    width: 30%;
+    background: #b3d1e6;
+    padding: 20px;
+}
+
+.justified {
+    text-align: justify;
+}
+
+/* IMAGE */
+.content-left img {
+    width: 100%;
+    max-width: 450px;
+    border: 4px solid #0d47a1;
+    display: block;
+    margin: 15px 0;
+}
+
+/* LINKS INSIDE CONTENT */
+.content-left a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.content-left a:hover {
+    color: darkred;
+    text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+    background: #c62828;
+    padding: 20px;
+    text-align: left;
+}
+
+footer img {
+    width: 280px;
+}
+
+
+.medicalteamr{
+    float: right;
+}
