@@ -1,0 +1,98 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dcdcdc;
+}
+
+
+.header {
+    background-color: #3c3cff;
+    padding: 30px 40px;
+}
+
+.header h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+
+.hero {
+    position: relative;
+    margin: 20px;
+}
+
+.hero img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    display: block;
+}
+
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+
+.section-title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+
+.projects-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 40px 0;
+}
+
+
+.project-box {
+    background-color: blueviolet;
+    padding: 15px;
+}
+
+.project-box img {
+    width: 260px;
+    display: block;
+}
+
+
+.next-box button {
+    background-color: #3c3cff;
+    border: none;
+    padding: 20px 50px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+
+.description {
+    text-align: center;
+    max-width: 1000px;
+    margin: 20px auto 60px;
+    font-size: 28px;
+    line-height: 1.4;
+}
