@@ -1,0 +1,22 @@
+body{
+    background-color: gray;
+}
+
+
+#wrapper{
+    margin:1em auto;
+    width: 960px;
+    Border:3px solid black;
+    background-color: white;
+    padding:1em;
+}
+
+#myCarousel {
+  margin-bottom: 24px;
+}
+
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  background: #eee;
+}
